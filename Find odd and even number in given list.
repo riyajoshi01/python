@@ -1,0 +1,12 @@
+list=[10,21,4,45,66,93,1]
+evn,od=0,0
+
+for el in list:
+    if el%2==0:
+        evn+=1
+
+    else:
+        od+=1
+    
+print("even nums in list are: ",evn)
+print("odd nums in list are: :",od)

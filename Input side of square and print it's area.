@@ -1,0 +1,2 @@
+side=int(input("enter the side: "))
+print("Area of square: ",side*side)

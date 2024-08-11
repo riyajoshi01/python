@@ -1,0 +1,2 @@
+str="happy birthday to riya"
+print(str.capitalize())

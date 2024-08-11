@@ -1,0 +1,6 @@
+def convert(usd):
+    inr=usd*83
+    print(inr)
+    return inr
+
+convert(17)

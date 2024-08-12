@@ -1,0 +1,9 @@
+num=[1,2,3,3,3,4]
+
+def unique(num):
+    num2=[]
+    for el in num:
+        if el not in num2:
+            num2.append(el)
+    return num2
+print(unique(num))

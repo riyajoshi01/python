@@ -1,0 +1,8 @@
+sub={}
+x=int(input("enter marks1: "))
+sub.update({"phy":x})
+y=int(input("enter marks2: "))
+sub.update({"chem":y})
+z=int(input("enter marks: "))
+sub.update({"maths":z})
+print(sub)
